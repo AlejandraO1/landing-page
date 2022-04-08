@@ -12,7 +12,13 @@ body{
     display: flex;
     flex-direction: row;
     padding-left: 15px;
+    padding-right: 15px;
     justify-content: space-between;
+}
+
+h2 {
+    font-size: 48px;
+    font-style: extra-bold;
 }
 
 a:link {
@@ -54,16 +60,21 @@ img {
 }
 
 .second-half {
+    padding: 15px;
     display: flex;
     flex-direction: column;
-    padding: 32px;
     flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .image-part {
-    width: 300px;
     display: flex;
+    max-width: 150px;
+    gap: 15px;
+}
 
+.info {
+    max-width: 150px;
 }
 
 .third-part {
