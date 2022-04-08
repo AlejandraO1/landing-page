@@ -88,10 +88,33 @@ img {
     align-items: center;
 }
 
+
+
 .fourth-part {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin: 30px;
+    padding: 20px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+button.first {
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    color: #F9FAF8;
+}
+
+button.second {
+    background-color:#3882F6;
+    border: 1.5px solid #F9FAF8;
+    color:#F9FAF8;
 }
 
 .footer {
