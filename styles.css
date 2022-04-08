@@ -22,5 +22,19 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 15px;
-    justify-content: center;
+}
+
+.first-half {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.bby {
+    height: auto;
+    width: 300px;
+}
+
+img {
+    height: 400px;
+    width: 300px;
 }
