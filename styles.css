@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     flex: 1;
     margin: 0px;
+    text-align: center;
 }
 
 .header {
@@ -11,11 +12,12 @@ body{
     display: flex;
     flex-direction: row;
     padding-left: 15px;
+    justify-content: space-between;
 }
 
 a:link {
     text-decoration: none;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 ul {
@@ -46,19 +48,22 @@ ul {
 }
 
 img {
-    height: 300px;
+    height: 200px;
     width: 150px;
+    border: 1px solid #3882F6;
 }
 
 .second-half {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 32px;
-    flex-wrap: nowrap
+    flex-wrap: nowrap;
 }
 
 .image-part {
     width: 300px;
+    display: flex;
+
 }
 
 .third-part {
