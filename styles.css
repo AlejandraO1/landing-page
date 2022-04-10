@@ -54,7 +54,7 @@ ul {
 }
 
 img {
-    height: 200px;
+    height: 150px;
     width: 150px;
     border: 1px solid #3882F6;
 }
@@ -69,8 +69,8 @@ img {
 
 .image-part {
     display: flex;
-    max-width: 150px;
     gap: 15px;
+    justify-content:center
 }
 
 .info {
@@ -87,7 +87,6 @@ img {
     padding: 15px;
     align-items: center;
 }
-
 
 
 .fourth-part {
