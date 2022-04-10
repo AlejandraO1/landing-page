@@ -8,7 +8,6 @@ body {
 
 .header {
     background-color: #1F2937;
-    color: #F9FAF8;
     display: flex;
     flex-direction: row;
     padding-left: 15px;
@@ -16,14 +15,15 @@ body {
     justify-content: space-between;
 }
 
-h2 {
-    font-size: 48px;
-    font-style: extra-bold;
+h3 {
+    font-size: 24px;
+    color:#F9FAF8
 }
 
 a:link {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 ul {
@@ -43,6 +43,11 @@ ul {
     justify-content: center;
 }
 
+h2 {
+    font-size: 48px;
+    font-style: extra-bold;
+}
+
 .wub {
     width: 40%;
     padding-right: 30px;
@@ -56,12 +61,15 @@ ul {
 .bby2 {
     height: auto;
     width: 300px;
+    border: 0px;
+    border-radius: 0px;
 }
 
 img {
     height: 150px;
     width: 150px;
-    border: 1px solid #3882F6;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
 }
 
 .second-half {
@@ -74,12 +82,18 @@ img {
 
 .image-part {
     display: flex;
-    gap: 15px;
-    justify-content:center
+    gap: 25px;
+    justify-content: center;
 }
 
 .info {
     max-width: 150px;
+}
+
+h4 {
+    font-size: 36px;
+    font-style: extra-bold;
+    color: #1F2937;
 }
 
 .third-part {
@@ -89,6 +103,17 @@ img {
     color: #1F2937;
     display: flex;
     padding: 15px;
+}
+
+blockquote {
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+
+cite {
+    font-style: normal;
 }
 
 .fourth-part {
