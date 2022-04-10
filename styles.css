@@ -83,7 +83,6 @@ img {
     font-style: light-italic;
     color: #1F2937;
     display: flex;
-    justify-content: center;
     padding: 15px;
     align-items: center;
 }
