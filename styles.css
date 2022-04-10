@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -41,6 +41,11 @@ ul {
     display: flex;
     padding: 15px;
     justify-content: center;
+}
+
+.wub {
+    width: 40%;
+    padding-right: 30px;
 }
 
 .bby1 {
