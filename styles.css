@@ -101,6 +101,7 @@ h4 {
     font-size: 36px;
     font-style: light-italic;
     color: #1F2937;
+    text-align: justify;
     display: flex;
     padding: 15px;
 }
@@ -112,8 +113,14 @@ blockquote {
     padding-bottom: 5%;
 }
 
+.author {
+    text-align: end;
+    font-size: 25px;
+}
+
 cite {
     font-style: normal;
+    font-weight: bold;
 }
 
 .fourth-part {
@@ -123,6 +130,7 @@ cite {
     padding: 15px;
     background-color: #3882F6;
     color:#F9FAF8;
+    text-align: justify;
 }
 
 p.text1 {
